@@ -5,8 +5,8 @@ module FA #(
     input [N-1:0] A,
     input [N-1:0] B,
     input [N-1:0] Cin,
-    output reg [N-1:0] S,
-    output reg [N-1:0] Cout
+    output [N-1:0] S,
+    output [N-1:0] Cout
     );
     
 assign {Cout, S} = A + B + Cin;
