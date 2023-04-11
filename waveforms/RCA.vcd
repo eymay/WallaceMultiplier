@@ -1,0 +1,794 @@
+$date
+	Sat Apr  1 17:21:13 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module RCA_tb $end
+$var wire 32 ! S [31:0] $end
+$var wire 1 " Cout $end
+$var reg 32 # A [31:0] $end
+$var reg 32 $ B [31:0] $end
+$var reg 1 % Cin $end
+$var reg 32 & input_A [31:0] $end
+$var reg 32 ' input_B [31:0] $end
+$var integer 32 ( i [31:0] $end
+$scope module rca $end
+$var wire 32 ) A [31:0] $end
+$var wire 32 * B [31:0] $end
+$var wire 1 % Cin $end
+$var wire 33 + carry_connector [32:0] $end
+$var wire 32 , S [31:0] $end
+$var wire 1 " Cout $end
+$var parameter 32 - N $end
+$scope begin ripple[0] $end
+$var parameter 2 . i $end
+$scope module full_adder $end
+$var wire 1 / A $end
+$var wire 1 0 B $end
+$var wire 1 1 Cin $end
+$var wire 1 2 S $end
+$var wire 1 3 Cout $end
+$var parameter 32 4 N $end
+$upscope $end
+$upscope $end
+$scope begin ripple[1] $end
+$var parameter 2 5 i $end
+$scope module full_adder $end
+$var wire 1 6 A $end
+$var wire 1 7 B $end
+$var wire 1 8 Cin $end
+$var wire 1 9 S $end
+$var wire 1 : Cout $end
+$var parameter 32 ; N $end
+$upscope $end
+$upscope $end
+$scope begin ripple[2] $end
+$var parameter 3 < i $end
+$scope module full_adder $end
+$var wire 1 = A $end
+$var wire 1 > B $end
+$var wire 1 ? Cin $end
+$var wire 1 @ S $end
+$var wire 1 A Cout $end
+$var parameter 32 B N $end
+$upscope $end
+$upscope $end
+$scope begin ripple[3] $end
+$var parameter 3 C i $end
+$scope module full_adder $end
+$var wire 1 D A $end
+$var wire 1 E B $end
+$var wire 1 F Cin $end
+$var wire 1 G S $end
+$var wire 1 H Cout $end
+$var parameter 32 I N $end
+$upscope $end
+$upscope $end
+$scope begin ripple[4] $end
+$var parameter 4 J i $end
+$scope module full_adder $end
+$var wire 1 K A $end
+$var wire 1 L B $end
+$var wire 1 M Cin $end
+$var wire 1 N S $end
+$var wire 1 O Cout $end
+$var parameter 32 P N $end
+$upscope $end
+$upscope $end
+$scope begin ripple[5] $end
+$var parameter 4 Q i $end
+$scope module full_adder $end
+$var wire 1 R A $end
+$var wire 1 S B $end
+$var wire 1 T Cin $end
+$var wire 1 U S $end
+$var wire 1 V Cout $end
+$var parameter 32 W N $end
+$upscope $end
+$upscope $end
+$scope begin ripple[6] $end
+$var parameter 4 X i $end
+$scope module full_adder $end
+$var wire 1 Y A $end
+$var wire 1 Z B $end
+$var wire 1 [ Cin $end
+$var wire 1 \ S $end
+$var wire 1 ] Cout $end
+$var parameter 32 ^ N $end
+$upscope $end
+$upscope $end
+$scope begin ripple[7] $end
+$var parameter 4 _ i $end
+$scope module full_adder $end
+$var wire 1 ` A $end
+$var wire 1 a B $end
+$var wire 1 b Cin $end
+$var wire 1 c S $end
+$var wire 1 d Cout $end
+$var parameter 32 e N $end
+$upscope $end
+$upscope $end
+$scope begin ripple[8] $end
+$var parameter 5 f i $end
+$scope module full_adder $end
+$var wire 1 g A $end
+$var wire 1 h B $end
+$var wire 1 i Cin $end
+$var wire 1 j S $end
+$var wire 1 k Cout $end
+$var parameter 32 l N $end
+$upscope $end
+$upscope $end
+$scope begin ripple[9] $end
+$var parameter 5 m i $end
+$scope module full_adder $end
+$var wire 1 n A $end
+$var wire 1 o B $end
+$var wire 1 p Cin $end
+$var wire 1 q S $end
+$var wire 1 r Cout $end
+$var parameter 32 s N $end
+$upscope $end
+$upscope $end
+$scope begin ripple[10] $end
+$var parameter 5 t i $end
+$scope module full_adder $end
+$var wire 1 u A $end
+$var wire 1 v B $end
+$var wire 1 w Cin $end
+$var wire 1 x S $end
+$var wire 1 y Cout $end
+$var parameter 32 z N $end
+$upscope $end
+$upscope $end
+$scope begin ripple[11] $end
+$var parameter 5 { i $end
+$scope module full_adder $end
+$var wire 1 | A $end
+$var wire 1 } B $end
+$var wire 1 ~ Cin $end
+$var wire 1 !" S $end
+$var wire 1 "" Cout $end
+$var parameter 32 #" N $end
+$upscope $end
+$upscope $end
+$scope begin ripple[12] $end
+$var parameter 5 $" i $end
+$scope module full_adder $end
+$var wire 1 %" A $end
+$var wire 1 &" B $end
+$var wire 1 '" Cin $end
+$var wire 1 (" S $end
+$var wire 1 )" Cout $end
+$var parameter 32 *" N $end
+$upscope $end
+$upscope $end
+$scope begin ripple[13] $end
+$var parameter 5 +" i $end
+$scope module full_adder $end
+$var wire 1 ," A $end
+$var wire 1 -" B $end
+$var wire 1 ." Cin $end
+$var wire 1 /" S $end
+$var wire 1 0" Cout $end
+$var parameter 32 1" N $end
+$upscope $end
+$upscope $end
+$scope begin ripple[14] $end
+$var parameter 5 2" i $end
+$scope module full_adder $end
+$var wire 1 3" A $end
+$var wire 1 4" B $end
+$var wire 1 5" Cin $end
+$var wire 1 6" S $end
+$var wire 1 7" Cout $end
+$var parameter 32 8" N $end
+$upscope $end
+$upscope $end
+$scope begin ripple[15] $end
+$var parameter 5 9" i $end
+$scope module full_adder $end
+$var wire 1 :" A $end
+$var wire 1 ;" B $end
+$var wire 1 <" Cin $end
+$var wire 1 =" S $end
+$var wire 1 >" Cout $end
+$var parameter 32 ?" N $end
+$upscope $end
+$upscope $end
+$scope begin ripple[16] $end
+$var parameter 6 @" i $end
+$scope module full_adder $end
+$var wire 1 A" A $end
+$var wire 1 B" B $end
+$var wire 1 C" Cin $end
+$var wire 1 D" S $end
+$var wire 1 E" Cout $end
+$var parameter 32 F" N $end
+$upscope $end
+$upscope $end
+$scope begin ripple[17] $end
+$var parameter 6 G" i $end
+$scope module full_adder $end
+$var wire 1 H" A $end
+$var wire 1 I" B $end
+$var wire 1 J" Cin $end
+$var wire 1 K" S $end
+$var wire 1 L" Cout $end
+$var parameter 32 M" N $end
+$upscope $end
+$upscope $end
+$scope begin ripple[18] $end
+$var parameter 6 N" i $end
+$scope module full_adder $end
+$var wire 1 O" A $end
+$var wire 1 P" B $end
+$var wire 1 Q" Cin $end
+$var wire 1 R" S $end
+$var wire 1 S" Cout $end
+$var parameter 32 T" N $end
+$upscope $end
+$upscope $end
+$scope begin ripple[19] $end
+$var parameter 6 U" i $end
+$scope module full_adder $end
+$var wire 1 V" A $end
+$var wire 1 W" B $end
+$var wire 1 X" Cin $end
+$var wire 1 Y" S $end
+$var wire 1 Z" Cout $end
+$var parameter 32 [" N $end
+$upscope $end
+$upscope $end
+$scope begin ripple[20] $end
+$var parameter 6 \" i $end
+$scope module full_adder $end
+$var wire 1 ]" A $end
+$var wire 1 ^" B $end
+$var wire 1 _" Cin $end
+$var wire 1 `" S $end
+$var wire 1 a" Cout $end
+$var parameter 32 b" N $end
+$upscope $end
+$upscope $end
+$scope begin ripple[21] $end
+$var parameter 6 c" i $end
+$scope module full_adder $end
+$var wire 1 d" A $end
+$var wire 1 e" B $end
+$var wire 1 f" Cin $end
+$var wire 1 g" S $end
+$var wire 1 h" Cout $end
+$var parameter 32 i" N $end
+$upscope $end
+$upscope $end
+$scope begin ripple[22] $end
+$var parameter 6 j" i $end
+$scope module full_adder $end
+$var wire 1 k" A $end
+$var wire 1 l" B $end
+$var wire 1 m" Cin $end
+$var wire 1 n" S $end
+$var wire 1 o" Cout $end
+$var parameter 32 p" N $end
+$upscope $end
+$upscope $end
+$scope begin ripple[23] $end
+$var parameter 6 q" i $end
+$scope module full_adder $end
+$var wire 1 r" A $end
+$var wire 1 s" B $end
+$var wire 1 t" Cin $end
+$var wire 1 u" S $end
+$var wire 1 v" Cout $end
+$var parameter 32 w" N $end
+$upscope $end
+$upscope $end
+$scope begin ripple[24] $end
+$var parameter 6 x" i $end
+$scope module full_adder $end
+$var wire 1 y" A $end
+$var wire 1 z" B $end
+$var wire 1 {" Cin $end
+$var wire 1 |" S $end
+$var wire 1 }" Cout $end
+$var parameter 32 ~" N $end
+$upscope $end
+$upscope $end
+$scope begin ripple[25] $end
+$var parameter 6 !# i $end
+$scope module full_adder $end
+$var wire 1 "# A $end
+$var wire 1 ## B $end
+$var wire 1 $# Cin $end
+$var wire 1 %# S $end
+$var wire 1 &# Cout $end
+$var parameter 32 '# N $end
+$upscope $end
+$upscope $end
+$scope begin ripple[26] $end
+$var parameter 6 (# i $end
+$scope module full_adder $end
+$var wire 1 )# A $end
+$var wire 1 *# B $end
+$var wire 1 +# Cin $end
+$var wire 1 ,# S $end
+$var wire 1 -# Cout $end
+$var parameter 32 .# N $end
+$upscope $end
+$upscope $end
+$scope begin ripple[27] $end
+$var parameter 6 /# i $end
+$scope module full_adder $end
+$var wire 1 0# A $end
+$var wire 1 1# B $end
+$var wire 1 2# Cin $end
+$var wire 1 3# S $end
+$var wire 1 4# Cout $end
+$var parameter 32 5# N $end
+$upscope $end
+$upscope $end
+$scope begin ripple[28] $end
+$var parameter 6 6# i $end
+$scope module full_adder $end
+$var wire 1 7# A $end
+$var wire 1 8# B $end
+$var wire 1 9# Cin $end
+$var wire 1 :# S $end
+$var wire 1 ;# Cout $end
+$var parameter 32 <# N $end
+$upscope $end
+$upscope $end
+$scope begin ripple[29] $end
+$var parameter 6 =# i $end
+$scope module full_adder $end
+$var wire 1 ># A $end
+$var wire 1 ?# B $end
+$var wire 1 @# Cin $end
+$var wire 1 A# S $end
+$var wire 1 B# Cout $end
+$var parameter 32 C# N $end
+$upscope $end
+$upscope $end
+$scope begin ripple[30] $end
+$var parameter 6 D# i $end
+$scope module full_adder $end
+$var wire 1 E# A $end
+$var wire 1 F# B $end
+$var wire 1 G# Cin $end
+$var wire 1 H# S $end
+$var wire 1 I# Cout $end
+$var parameter 32 J# N $end
+$upscope $end
+$upscope $end
+$scope begin ripple[31] $end
+$var parameter 6 K# i $end
+$scope module full_adder $end
+$var wire 1 L# A $end
+$var wire 1 M# B $end
+$var wire 1 N# Cin $end
+$var wire 1 O# S $end
+$var wire 1 P# Cout $end
+$var parameter 32 Q# N $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b1 Q#
+b11111 K#
+b1 J#
+b11110 D#
+b1 C#
+b11101 =#
+b1 <#
+b11100 6#
+b1 5#
+b11011 /#
+b1 .#
+b11010 (#
+b1 '#
+b11001 !#
+b1 ~"
+b11000 x"
+b1 w"
+b10111 q"
+b1 p"
+b10110 j"
+b1 i"
+b10101 c"
+b1 b"
+b10100 \"
+b1 ["
+b10011 U"
+b1 T"
+b10010 N"
+b1 M"
+b10001 G"
+b1 F"
+b10000 @"
+b1 ?"
+b1111 9"
+b1 8"
+b1110 2"
+b1 1"
+b1101 +"
+b1 *"
+b1100 $"
+b1 #"
+b1011 {
+b1 z
+b1010 t
+b1 s
+b1001 m
+b1 l
+b1000 f
+b1 e
+b111 _
+b1 ^
+b110 X
+b1 W
+b101 Q
+b1 P
+b100 J
+b1 I
+b11 C
+b1 B
+b10 <
+b1 ;
+b1 5
+b1 4
+b0 .
+b100000 -
+$end
+#0
+$dumpvars
+0P#
+0O#
+0N#
+0M#
+0L#
+0I#
+0H#
+0G#
+0F#
+0E#
+0B#
+0A#
+0@#
+0?#
+0>#
+0;#
+0:#
+09#
+08#
+07#
+04#
+03#
+02#
+01#
+00#
+0-#
+1,#
+1+#
+0*#
+0)#
+1&#
+0%#
+0$#
+1##
+1"#
+0}"
+0|"
+0{"
+0z"
+0y"
+0v"
+1u"
+1t"
+0s"
+0r"
+1o"
+1n"
+1m"
+1l"
+1k"
+1h"
+0g"
+0f"
+1e"
+1d"
+0a"
+0`"
+0_"
+0^"
+0]"
+0Z"
+1Y"
+1X"
+0W"
+0V"
+1S"
+0R"
+0Q"
+1P"
+1O"
+0L"
+1K"
+1J"
+0I"
+0H"
+1E"
+0D"
+0C"
+1B"
+1A"
+0>"
+1="
+1<"
+0;"
+0:"
+17"
+06"
+05"
+14"
+13"
+00"
+0/"
+0."
+0-"
+0,"
+0)"
+0("
+0'"
+0&"
+0%"
+0""
+0!"
+0~
+0}
+0|
+0y
+0x
+0w
+0v
+0u
+0r
+1q
+1p
+0o
+0n
+1k
+0j
+0i
+1h
+1g
+0d
+0c
+0b
+0a
+0`
+0]
+0\
+0[
+0Z
+0Y
+0V
+1U
+1T
+0S
+0R
+1O
+0N
+0M
+1L
+1K
+0H
+0G
+0F
+0E
+0D
+0A
+0@
+0?
+0>
+0=
+0:
+09
+08
+07
+06
+03
+12
+01
+10
+0/
+b100110010101000001000100001 ,
+b100110010101000001000100000 +
+b10011001010100000100010001 *
+b10011001010100000100010000 )
+b0 (
+b10011001010100000100010001 '
+b10011001010100000100010000 &
+0%
+b10011001010100000100010001 $
+b10011001010100000100010000 #
+0"
+b100110010101000001000100001 !
+$end
+#20
+b100110010101000001000100011 !
+b100110010101000001000100011 ,
+19
+00
+17
+1/
+b10011001010100000100010010 $
+b10011001010100000100010010 *
+b10011001010100000100010001 #
+b10011001010100000100010001 )
+b10011001010100000100010010 '
+b10011001010100000100010001 &
+b1 (
+#40
+1@
+1?
+b100110010101000001000100101 !
+b100110010101000001000100101 ,
+09
+b100110010101000001000100100 +
+1:
+10
+0/
+16
+b10011001010100000100010011 $
+b10011001010100000100010011 *
+b10011001010100000100010010 #
+b10011001010100000100010010 )
+b10011001010100000100010011 '
+b10011001010100000100010010 &
+b10 (
+#60
+0G
+0?
+0F
+19
+0:
+b100110010101000001000100111 !
+b100110010101000001000100111 ,
+1@
+b100110010101000001000100000 +
+0A
+00
+07
+1>
+1/
+b10011001010100000100010100 $
+b10011001010100000100010100 *
+b10011001010100000100010011 #
+b10011001010100000100010011 )
+b10011001010100000100010100 '
+b10011001010100000100010011 &
+b11 (
+#80
+1G
+1F
+09
+b100110010101000001000101001 !
+b100110010101000001000101001 ,
+0@
+b100110010101000001000101000 +
+1A
+10
+0/
+06
+1=
+b10011001010100000100010101 $
+b10011001010100000100010101 *
+b10011001010100000100010100 #
+b10011001010100000100010100 )
+b10011001010100000100010101 '
+b10011001010100000100010100 &
+b100 (
+#100
+b100110010101000001000101011 !
+b100110010101000001000101011 ,
+19
+00
+17
+1/
+b10011001010100000100010110 $
+b10011001010100000100010110 *
+b10011001010100000100010101 #
+b10011001010100000100010101 )
+b10011001010100000100010110 '
+b10011001010100000100010101 &
+b101 (
+#120
+1@
+1?
+b100110010101000001000101101 !
+b100110010101000001000101101 ,
+09
+b100110010101000001000101100 +
+1:
+10
+0/
+16
+b10011001010100000100010111 $
+b10011001010100000100010111 *
+b10011001010100000100010110 #
+b10011001010100000100010110 )
+b10011001010100000100010111 '
+b10011001010100000100010110 &
+b110 (
+#140
+0F
+0A
+0N
+0?
+0M
+19
+0:
+1@
+b100110010101000001000101111 !
+b100110010101000001000101111 ,
+1G
+b100110010101000001000100000 +
+0H
+00
+07
+0>
+1E
+1/
+b10011001010100000100011000 $
+b10011001010100000100011000 *
+b10011001010100000100010111 #
+b10011001010100000100010111 )
+b10011001010100000100011000 '
+b10011001010100000100010111 &
+b111 (
+#160
+1N
+1M
+09
+0@
+b100110010101000001000110001 !
+b100110010101000001000110001 ,
+0G
+b100110010101000001000110000 +
+1H
+10
+0/
+06
+0=
+1D
+b10011001010100000100011001 $
+b10011001010100000100011001 *
+b10011001010100000100011000 #
+b10011001010100000100011000 )
+b10011001010100000100011001 '
+b10011001010100000100011000 &
+b1000 (
+#180
+b100110010101000001000110011 !
+b100110010101000001000110011 ,
+19
+00
+17
+1/
+b10011001010100000100011010 $
+b10011001010100000100011010 *
+b10011001010100000100011001 #
+b10011001010100000100011001 )
+b10011001010100000100011010 '
+b10011001010100000100011001 &
+b1001 (
+#200
+b1010 (
